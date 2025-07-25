@@ -1,0 +1,20 @@
+@import "_variable.scss";
+
+.header{ //頁面 header common
+    height: 80px;
+    @extend %disPlayFlex;
+    position: relative;
+    .container1920{
+        @include container1920;
+    }
+    .headerLOGO{
+        width: $base;
+        height: auto;
+        @extend %disPlayFlex;
+        .header_logo{
+            width: 465px;
+            height: 72px;
+        }
+    }
+    
+}

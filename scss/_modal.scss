@@ -1,0 +1,218 @@
+@import "_variable.scss";
+
+.modal_dialog{ // frame common
+    margin: 0 auto;
+    @include tablet{
+        margin: 1.75em auto;
+    }
+    @include desktop{
+        &.modal_dialogWidth800{
+            max-width: nth($modal_dialogWidth,1);
+        }
+        &.modal_dialogWidth500{
+            max-width: nth($modal_dialogWidth,2);
+        }
+    }
+    @include tablet{
+        &.modal_dialogWidth800{
+            max-width: nth($modal_dialogWidth,1);
+        }
+        &.modal_dialogWidth500{
+            max-width: nth($modal_dialogWidth,2);
+        }
+    }
+    .modal-content{
+        border-radius: nth($borderRadius,3);
+        border: 0;
+        padding: 16px 24px;
+        box-shadow: 0 1px 10px rgba($color: #000000, $alpha: 0.1);
+        .modal-header{
+            padding: $padding0;
+            border-bottom: 0;
+            .modal-title{
+                @include font26B;
+                color: map-get($support_colors, 800);
+                text-align: nth($textAlign,1);
+                width: $base;
+            }
+            .btn-close{
+                width: 24px;
+                height: 24px;
+                color: map-get($support_colors, LowEmphasis);
+                padding: 6px;
+                margin: 0;
+                &:hover{
+                    color: map-get($support_colors, HighEmphasis);
+                }
+                &:focus{
+                    box-shadow: none;
+                }
+            }
+        }
+        .modal-body{
+            padding: 24px 0;
+            .modal_body_content{
+                
+            }
+        }
+        .modal-footer{
+            justify-content: center;
+            padding: $padding0;
+            border-top: 0;
+            padding: 12px 0;
+            .btn_third_linear_s{
+                @include btn_third_linear_s;
+                border: 0;
+            }
+            .btn_third_outline_s{
+                @include btn_third_outline_s;
+                margin-right: 16px;
+            }
+        }
+    }
+}
+
+.termsBox{ //條款
+    li{
+        .txt_tit{
+            @include font20B;
+            color: map-get($support_colors, HighEmphasis);
+            padding-bottom: 12px;
+        }
+        .termxContentBox{
+            li{
+                color: map-get($support_colors, 800);
+                @include font16R;
+                padding-left: 10px;
+                list-style: circle;
+                list-style-position: inside;
+                padding-bottom: 8px;
+            }
+        }
+    }
+}
+.accountPhotoBox{ //更換帳號photo
+    display: flex;
+    width: $base;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    li{
+        @extend %disPlayFlex;
+        width: calc($base / 4 - 24px);
+        height: 80px;
+        background-color: map-get($support_colors, LowEmphasis);
+        border-radius: nth($borderRadius,5);
+        margin-bottom: 24px;
+        margin-right: 12px;
+        margin-left: 12px;
+        overflow: hidden;
+        cursor: pointer;
+        &:hover{
+            border: 3px solid $third;
+        }
+        .photoImg{
+            width: 68px;
+            height: 68px;
+        }
+    }
+}
+.textAlign{
+    text-align: nth($textAlign,1);
+    @include font16R;
+    color: map-get($support_colors, 800);
+    padding-bottom: 12px;
+}
+
+#cancelChannelsModal{//新增您的頻道 / 取消頻道確認
+    .cancelChannelsBox{ 
+        @extend %disPlayFlexColumn;
+        .txt_tit{
+            @include font16R;
+            text-align: nth($textAlign, 1);
+            padding-bottom: $paddingBottom24;
+        }
+        .channelsGroup{
+            width: $base;
+            @extend %disPlayFlex;
+            li{
+                a{
+                    min-width: 156px;
+                    display: flex;
+                    align-items: center;
+                    padding: 12px;
+                    border:1px solid map-get($support_colors, 400);
+                    border-radius: nth($borderRadius, 2);
+                    margin-left: 12px;
+                    margin-right: 12px;
+                    .icon{
+                        width: 48px;
+                        height: 48px;
+                        display: nth($display, 1);
+                    }
+                    .txtGroup{
+                        @extend %disPlayFlexColumn;
+                        align-items: center;
+                        .txt_channels{
+                            @include font16R;
+                            color: map-get($support_colors, MediumEmphasis);
+                            padding-left:12px;
+                            min-width: 63px;
+                            text-align: nth($textAlign, 1);
+                        }
+                        .txt_addedChannels{
+                            @include font12B;
+                            color:map-get($support_colors , LowEmphasis);
+                        }
+                    }
+                    &:hover, &:active, &.active{
+                        border:1px solid map-get($third_colors, Third);
+                    }
+                    &.disabled{
+                        background: map-get($support_colors, 400);
+                        border: none;
+                        .icon{
+                            opacity: .5;
+                        }
+                        .txt_channels{
+                            color:map-get($support_colors , LowEmphasis);
+                        }
+                    }
+                }
+            }
+        }
+        .channelsBox{
+            padding-top: 72px;
+            padding-bottom: 100px;
+            .txt_tit{
+                color:map-get($support_colors , LowEmphasis);
+            }
+        }
+    }
+    .modal-footer{
+        button{
+            min-width: 89px;
+        }
+        .btn_third_outline_s{
+            @include btn_third_outline_s;
+        }
+    }
+}
+
+#canceledChannelsModal{ //新增您的頻道 / 已取消確認
+    .modal-body{
+        display: none;
+    }
+    .modal-footer{
+        margin-top: 12px;
+        button{
+            min-width: 89px;
+        }
+    }
+}
+
+#repeatedlyAddChannelsModal{ //新增您的頻道 / 頻道已重複新增
+    .repeatedlyAddChannelBox{
+        text-align: nth($textAlign, 1);
+    }
+}

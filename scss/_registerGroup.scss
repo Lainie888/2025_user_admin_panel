@@ -1,0 +1,322 @@
+@import "_variable.scss";
+
+//register 訪客註冊表單頁 / 同意服務與隱私權條款頁 / 成功註冊頁 / 完整您的帳戶資訊頁 / 用戶登入頁
+.registerGroup{
+    width: 444px;
+    height: auto;
+    border-radius: nth($borderRadius,2);
+    background-color: rgba($color: #fff, $alpha: 0.6);
+    padding: $paddingBase *2.625; //42
+    margin-top: 90px;
+    &_success{
+        margin-top: 16px;
+    }
+    .txt_tit{
+        @include txt_tit;
+    }
+    .txt_content{
+        @include font16R;
+        color: map-get($support_colors, HighEmphasis);
+        padding-bottom: $paddingBottom24;
+    }
+    .formGroup{
+        padding-left: 8px;
+        padding-right: 8px;
+        .formBox{
+            padding-bottom: $paddingBase * 1.5; //24
+            &_photo{
+                width: 80px;
+                height: 80px;
+                @extend %disPlayFlex;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+            }
+            .icon_edit{
+                display: inline-block;
+                width: 16px;
+                height: 16px;
+                background-image: url("../images/pen.png");
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: auto;
+                cursor: pointer;
+                border-radius: 50%;
+                background-color: map-get($support_colors, LowEmphasis);
+                position: absolute;
+                margin-bottom: -65px;
+                margin-right: -54px;
+                z-index: 9;
+            }
+            .form_label{
+                @include form_label_normal;
+                margin-bottom: 4px;
+                .txt_required{
+                    @include font12B;
+                    color: $primary;
+                }
+            }
+            .form_input{
+                @include formDefault;
+                &:focus{
+                    border-color: map-get($third_colors, Third);
+                }
+            }
+            .FormControlInputBirthdayGroup{
+                width: $base;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                >li{
+                    width:calc($base / 3 - 8px);
+                    display: flex;
+                    flex-wrap: nowrap;
+                    &:not(:last-child){
+                        margin-right:8px;
+                    }
+                    .FormControlInputBirthday{
+                        width: $base;
+                        padding: 8px 16px;
+                        border-radius: nth($borderRadius,3);
+                    }
+                }
+            }
+            .FormSecurityCodeGroup{
+                width: $base;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                >li{
+                    display: flex;
+                    flex-wrap: nowrap;
+                    .FormSecurityCode{
+                        width: 40px;
+                        height: 40px;
+                        padding: 8px;
+                        border-radius: nth($borderRadius,2);
+                        text-align: nth($textAlign,1);
+                    }
+                }
+            }
+            .txt_error{
+                @include txt_error;
+                display: nth($display,2);
+            }
+            .txt_tip_third{
+                @include txt_tip_third;
+                display: nth($display,2);
+            }
+            .txt_tip_login{
+                width: $base;
+                display: nth($display,1);
+                text-align: nth($textAlign,2);
+                .txt_error{
+                    @include txt_error;
+                    display: nth($display,1);
+                }
+                .btn_txt_third12R{
+                    @include btn_txt_third12R;
+                }
+            }
+            .btn_txt_third12R{
+                @include btn_txt_third12R;
+            }
+            #FormControlInputVerificationCode{
+                width: 213px;
+                display: nth($display,1);
+            }
+            .txtVerificationCode{
+                float: right;
+                min-width: 80px;
+                color: map-get($support_colors, HighEmphasis);
+                @include font16R;
+                display: nth($display,1);
+                padding: 8px 0;
+                &:after{
+                    clear: both;
+                }
+                &:hover{
+                    color: map-get($third_colors, Third);
+                }
+                &.disabled{
+                    color: map-get($support_colors, LowEmphasis);
+                }
+                .txt_tip{
+                    @include txtTip;
+                }
+            }
+            .listGroup{
+                width: $base;
+                display: flex;
+                ul{
+                    width: $base;
+                    @extend %disPlayFlexColumn;
+                    li{
+                        width: $base;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-bottom: 24px;
+                        .iconGroup_l{
+                            margin-right: 24px;
+                            .icon{
+                                display: nth($display,2);
+                                width: 80px;
+                                height: 80px;
+                                &.icon_backup{
+                                }
+                                &.icon_monitor{
+                                }
+                                &.icon_analysis{
+                                }
+                            }
+                        }
+                        .txtGroup_r{
+                            .txt_tits{
+                                @include font26B;
+                                color: map-get($support_colors, HighEmphasis);
+                            }
+                            .txt_contents{
+                                @include font16R;
+                                color: map-get($support_colors, HighEmphasis);
+                            }
+                        }                  
+                    }
+                }
+            }
+            .btn_third_linear_m{
+                @include btn_third_linear_m;
+            }
+            .btn_third_txt_m{
+                @include btn_third_txt_m;
+                margin-top: 16px;
+            }
+            .dropdownGroup{//下拉選單
+                @include formDefault;
+                border-radius: nth($borderRadius,3);
+                .dropdown_toggle{
+                    color: map-get($support_colors, HighEmphasis);
+                    @include font16R;
+                    background-color: transparent;
+                    border-color: transparent;
+                    padding: $padding0;
+                    width: $base;
+                    display: flex;
+                    flex-wrap: nowrap;
+                    align-items: center;
+                    justify-content: space-between;
+                    &:focus{
+                        box-shadow: none;
+                    }
+                    &:after{
+                        content: "";
+                        width: 24px;
+                        height: 24px;
+                        background: url("../images/icon_dropdown.svg") no-repeat center center;
+                        background-size: cover;
+                        display: nth($display,1);
+                        border: 0;
+                    }
+                }
+                .dropdown_menu{
+                    @include font16R;
+                    padding: 8px 10px 8px 16px;
+                    background:#E1E2E2;
+                    border-radius: nth($borderRadius,3);
+                    color: map-get($support_colors, HighEmphasis);
+                    border: 0;
+                    width: $base;
+                    margin-top: 10px;
+                    margin-left: -16px;
+                    &.show{
+                        transform: translate3d(0px, 44px, 0px)!important;
+                    }
+                    >li{
+                        &:not(:last-child){
+                            margin-bottom: 6px;
+                        }
+                        .dropdown_item{
+                            &:hover{
+                                background: rgba($color: #2D2F30, $alpha: 0.1);
+                                border-radius: nth($borderRadius,1);
+                            }
+                            &:active{
+                                color: map-get($support_colors, 0);
+                                background-color: map-get($support_colors, LowEmphasis);
+                                border-radius: nth($borderRadius,1);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .photoBox{
+            width: 80px;
+            height: 80px;
+            border-radius: nth($borderRadius,5);
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .txt_tip_register{
+            width: $base;
+            display: nth($display,1);
+            text-align: nth($textAlign,1);
+            span{
+                @include txtTip;
+                padding-right: 17px;
+            }
+            .btn_txt_third12R{
+                @extend %disPlayInlineFlex;
+                @include btn_txt_third12R;
+            }
+            .icon_arrow{
+                &:after{
+                    content:"";
+                    display: nth($display,1);
+                    @include icon_arrow;
+                }
+            }
+        }
+        .form_check{
+            padding-bottom: $paddingBase;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            .form_checkedBox{
+                margin-left: -10px;
+                margin-top: 0;
+                border: 0;
+                border-radius: 0;
+                &:checked{
+                    background-color: map-get($support_colors, 0);
+                    border-color: transparent;
+                }
+                &:checked[type=checkbox]{
+                    width: 24px;
+                    height: 24px;
+                    background-repeat: no-repeat;
+                    background-image:url("../images/checkbox_checked.svg");
+                    background-size: cover;
+                }
+            }
+            .form_check_label{
+                text-indent: -999px;
+            }
+            .btn_txt_third16R{
+                @include btn_txt_third16R;
+                background-color: transparent;
+                border-color: transparent;
+                padding: $padding0;
+                border: 0;
+                padding-left: 6px;
+                &:hover{
+                    background-color: transparent;
+                    border-color: transparent;
+                }
+                &:focus{
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}

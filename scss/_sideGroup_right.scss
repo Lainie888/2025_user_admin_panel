@@ -1,0 +1,6 @@
+@import "_variable.scss";
+
+.sideGroup_right{ //右側邊欄區域
+    width: calc(1600px - 160px - 869px - 47px - 80px); //394
+    background: #EBEEF0;
+}

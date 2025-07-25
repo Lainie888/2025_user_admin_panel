@@ -1,0 +1,89 @@
+@import "_reset.scss";
+@import "_variable.scss";
+@import "_mixin.scss";
+@import "_frame_style.scss";
+@import "_component.scss";
+@import "_modal.scss"; // 彈窗
+@import "_registerGroup.scss"; //register 訪客註冊表單頁 / 同意服務與隱私權條款頁 / 成功註冊頁 / 完整您的帳戶資訊頁 / 用戶登入頁
+@import "_sideGroup_left.scss"; //頁面 左側邊欄區域
+@import "_main_content_page.scss"; //頁面 主內容區域
+@import "_sideGroup_right.scss"; //頁面 右側邊欄區域
+@import "_icons.scss"; // icons svg
+@import "_header.scss"; //頁面 header common
+@import "_footer.scss"; //頁面 footer common
+@import "_page_common.scss"; //page common(header)：資產保險箱 / 續航引擎 / 頻道管理
+@import "_addChannels.scss"; //新增您的頻道區塊
+
+
+.contentBox{
+    width: $base;
+    height: auto;
+    min-height: 100vh;
+    @extend %disPlayFlexColumn;
+    background: rgba($color: #F5F8FA, $alpha: 0.8);
+    &_register{
+        min-height: 100vh;
+        background: url("../images/bgImage.png") no-repeat center center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
+
+
+.contentGroup{
+    width: $base;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    .main_Content{
+        width: $base;
+        display: flex;
+        @include desktop{
+            max-width: 1600px;
+        }
+        &_register{
+            @extend %disPlayFlexColumn;
+            align-items: center;
+        }
+        &_page{
+            padding: 26px 40px;
+            flex-direction: row;
+            justify-content: center;
+        }
+    }
+}
+
+
+.txt_success_tit{
+    @include font34B;
+    color: map-get($support_colors, HighEmphasis);
+    margin-top: 36px;
+}
+
+input::-webkit-input-placeholder{
+    color: map-get($support_colors, LowEmphasis);
+}
+
+::placeholder{
+    color: map-get($support_colors, LowEmphasis);
+}
+.form-check-input{
+    &:checked, &:focus{
+        background-color: none;
+        border-color: none;
+        border-color: transparent;
+        outline: 0;
+        box-shadow: none;
+    }
+}
+.sideGroup_left, .main_content_page , .sideGroup_right{
+    display: flex;
+}
+.main_content_page { //頁面 主內容區域
+    align-items: center;
+}
+
+
+
+

@@ -1,0 +1,77 @@
+//color
+$primary: #D63B2D;
+$primary200: #F86759;
+$primaryDisable:rgba($color: #D63B2D, $alpha: 0.3);
+$third:#3594C2;
+$third200: #70D0FF;
+$thirdDisable:rgba($color: #3594C2, $alpha: 0.3);
+$thirdLinear:linear-gradient(to right, #3594c2 0%,#90d9fd 100%);
+$error:#A8071A;
+
+//藍
+$third_colors:(
+    Third: #3594C2,
+    200: #70D0FF,
+    Disable:rgba($color: #3594C2, $alpha: 0.3),
+    Linear:linear-gradient(to right, #3594c2 0%,#90d9fd 100%)
+);
+
+// 黑
+$support_colors: (
+    HighEmphasis: #2D2F30,
+    MediumEmphasis: #6F7173,
+    LowEmphasis: #AEB1B2,
+    800: #4F5153,
+    600: #848688,
+    500: #AEB1B2,
+    400: #CBCED0,
+    300: #EBEEF0,
+    0 : #ffffff
+);
+
+
+$base: 100%;
+
+//font 陣列
+$fontBase:16px;
+$font:12px 16px 20px 24px 26px 32px 34px;
+
+//border-radius 陣列
+$borderRadius:6px 12px 24px 32px 50%;
+
+//padding
+$padding0:0;
+$paddingBase:16px;
+$paddingBottom24:24px;
+
+//font : align 陣列
+$textAlign:center left right;
+
+//display 陣列
+$display:inline-block block;
+
+//modal 陣列
+$modal_dialogWidth:800px 500px;
+
+// 對齊方式 
+%disPlayFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%disPlayInlineFlex{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%disPlayFlexColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+%padding0{
+    padding-right:0;
+    padding-left:0;
+}

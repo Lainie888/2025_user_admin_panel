@@ -1,0 +1,36 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{scroll-behavior: smooth;}
+body {
+    font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    position:relative; 
+    line-height: 1.5;
+}
+html,body{
+	margin: 0; 
+    padding: 0;
+	-webkit-tap-highlight-color:transparent;
+}
+ul,ol,li{list-style: none;}
+ul,ol,.form-check {
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,dl,dd{
+	margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.form-control{
+    border: 0px;
+    &:focus{
+        border:1px solid rgba($color: #2D2F30, $alpha: 0.1);
+        box-shadow:none;
+    }
+}
+

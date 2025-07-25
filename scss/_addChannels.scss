@@ -1,0 +1,98 @@
+@import "_variable.scss";
+
+.addchannel_contentBox{ //新增您的頻道
+    width: 688px;
+    background-color: map-get($support_colors, 0);
+    border-radius: nth($borderRadius, 2);
+    padding: $paddingBase * 2.625;
+    box-shadow: 0 1px 10px rgba($color: #4F4F4F, $alpha: 0.1);
+    @extend %disPlayFlexColumn;
+    .select_channelsBox{
+        @extend %disPlayFlexColumn;
+        width: $base;
+        padding: 0 44px;
+        ul{
+            @extend %disPlayFlexColumn;
+            width: $base;
+            li{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row;
+                width: $base;
+                border: 1px solid map-get($support_colors, 400);
+                border-radius: nth($borderRadius, 2);
+                padding: 12px;
+                &:not(:last-child){
+                    margin-bottom: 12px;
+                }
+                .userBox, .txtGroup{
+                    padding-right: 16px;
+                }
+                .userBox{
+                    .icon{
+                        width: 76px;
+                        height: 76px;
+                        border-radius: 50%;
+                        overflow: hidden;
+                    }
+                }
+                .txtGroup{
+                    .txt_channelName{
+                        width: 360px;
+                        white-space: nowrap; 
+                        overflow: hidden; 
+                        text-overflow: ellipsis;
+                        @include font16B;
+                        color: map-get($support_colors, HighEmphasis)
+                    }
+                }
+                .checkBox{
+                    width: 24px;
+                    height: 24px;
+                    .form_check {
+                        padding-bottom: 16px;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        .form-check-input{
+                            margin-left: 0;
+                        }
+                    }
+                }
+                &:hover, &:active, &.active{
+                    border: 1px solid map-get($third_colors, Third);
+                }
+                &:not(:active){
+                    .icon_channel_check{
+                        display: none;
+                    }
+                }
+                &:active, &.active{
+                    .icon_channel_check{
+                        display: inline-block;
+                        width: 24px;
+                        height: 24px;
+                        background: url("../images/icon_channel_check.svg") no-repeat center center;
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+    }
+    .btnGroup{
+        @extend %disPlayFlex;
+        margin-top: 24px;
+        a{
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+        .btn_third_outline_s{
+            @include btn_third_outline_s;
+            min-width: 89px;
+        }
+        .btn_third_linear_s{
+            @include btn_third_linear_s;
+        }
+    }
+}

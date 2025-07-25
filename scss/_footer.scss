@@ -1,0 +1,53 @@
+@import "_variable.scss";
+
+.footerGroup{
+    @extend %disPlayFlex;
+}
+.footer{ //頁面 footer common
+    width: $base;
+    @extend %disPlayFlex;
+    padding-bottom: $paddingBase * 2.25; //36
+    @include desktop{
+        max-width: 1600px;
+    }
+    .container1920{
+        @include container1920;
+    }
+    .col{
+        @extend %disPlayFlex;
+        ul{
+            width: $base;
+            max-width: 500px;
+            @extend %disPlayFlex;
+            flex-wrap: nowrap;
+            padding-top: 10px;
+            li{
+                @extend %disPlayFlex;
+                align-items: center;
+                &:not(:last-child){
+                    padding-right: 5px;
+                    &::after{
+                        content: " | ";
+                        display: block;
+                        color: #2D2F30;
+                        padding-left: 5px;
+                    }
+                }
+                a{
+                    font-size: 12px;
+                    color: #2D2F30;
+                    display: block;
+                    &:hover{
+                        color: map-get($third_colors , Third);
+                    }
+                }
+                p{
+                    font-size: 12px;
+                    color: #2D2F30;
+                    display: block;
+                }
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,280 @@
+@import "_variable.scss";
+
+//font common
+@mixin font($size, $lineHeight, $weight: normal) {
+    font-size: $size;
+    line-height: $lineHeight;
+    font-weight: $weight;
+}
+
+@mixin font12B {
+  @include font($fontBase * 0.75, 20px, bold);
+}
+
+@mixin font12R{
+    @include font($fontBase * 0.75, 20px, normal)
+}
+
+@mixin font16B{
+    @include font($fontBase, 24px, bold)
+}
+
+@mixin font16R{
+    @include font($fontBase, 24px, normal)
+}
+
+@mixin font18B{
+    @include font($fontBase * 1.125, 27px, bold)
+}
+
+@mixin font20B{
+    @include font($fontBase * 1.25, 30px, bold)
+}
+
+@mixin font20R{
+    @include font($fontBase * 1.25, 30px, normal)
+}
+
+@mixin font26B{
+    @include font($fontBase * 1.625, 39px, bold)
+}
+
+@mixin font34B{
+    @include font($fontBase * 2.125, 52px, bold)
+}
+
+@mixin font36B{
+    @include font($fontBase * 2.25, 54px, bold)
+}
+
+
+@mixin txtTip{
+    @include font12R;
+    color: map-get($support_colors, LowEmphasis);
+}
+
+@mixin txt_error{
+    color: $error;
+    @include font12R;
+}
+
+@mixin txt_tip_third{
+    color: map-get($third_colors, Third);
+    @include font12R;
+}
+
+
+// font ：　txt_tit
+@mixin txt_tit{
+    text-align: nth($textAlign,1);
+    color: map-get($support_colors, HighEmphasis);
+    @include font26B;
+    padding-bottom: $paddingBottom24;
+    letter-spacing: .008em;
+}
+
+//form : input
+@mixin formDefault{
+    @include font16R;
+    padding: 8px 10px 8px 16px;
+    background-color:rgba($color: #2D2F30, $alpha: 0.1);
+    border-radius: 24px;
+    color: map-get($support_colors, HighEmphasis);
+    &.error{
+        border:1px solid $error;
+    }
+}
+
+//form : label
+@mixin form_label_normal{
+    @include font16R;
+    color: map-get($support_colors, HighEmphasis);
+    display: nth($display,2);
+}
+
+// button ： common
+@mixin btn_common($display: block, $borderRadius: 32px, $textAlign: center){
+    display: $display;
+    border-radius: $borderRadius;
+    text-align: $textAlign;
+    &:focus{
+        box-shadow:none;
+    }
+}
+
+//button : primary
+@mixin btn_primary_m{
+    @include font16B;
+    @include btn_common();
+    padding:map-get($btn_sizes, size_m);
+    background: $primary;
+    color: map-get($support_colors, 0);
+    &:hover{
+        background: $primary200;
+    }
+    &:active{
+        background: $primary;
+    }
+    &.disabled{
+        background: $primaryDisable;
+    }
+}
+
+//button : Third
+@mixin btn_third_s{ //實心style
+    @include font16B;
+    @include btn_common();
+    background-color: map-get($third_colors, Third);
+    color: map-get($support_colors, 0);
+    &:hover{
+        background-color: map-get($third_colors, 200);
+    }
+    &:active{
+        background-color: map-get($third_colors, Third);
+    }
+    &.disabled{
+        background-color: map-get($third_colors, Disable);
+    }
+}
+
+
+@mixin btn_third_linear_s{ //實心漸層style
+    @include font16B;
+    @include btn_common;
+    padding: 8px 16px;
+    background: $thirdLinear;
+    color: map-get($support_colors, 0);
+    &:hover{
+        background: $third200;
+    }
+    &:active{
+        background: $third;
+    }
+    &.disabled{
+        background:$thirdDisable;
+    }
+}
+
+@mixin btn_third_outline_s{ //outline style
+    @include font16B;
+    @include btn_common;
+    padding: 8px 16px;
+    background-color: map-get($support_colors, 0);
+    border: 1px solid $third;
+    color: map-get($third_colors, Third);
+    &:hover{
+        background-color: map-get($third_colors, 200);
+        border: 0;
+        color: map-get($support_colors, 0);
+    }
+    &:active{
+        background-color: map-get($third_colors, Third);
+    }
+    &.disabled{
+        background-color: map-get($third_colors, Disable);
+    }
+}
+
+@mixin btn_third_m{
+    @include font16B;
+    @include btn_common;
+    padding: 12px 24px;
+    background-color: map-get($third_colors, Third);
+    color: map-get($support_colors, 0);
+    &:hover{
+        background-color: map-get($third_colors, 200);
+    }
+    &:active{
+        background-color: map-get($third_colors, Third);
+    }
+    &.disabled{
+        background-color: map-get($third_colors, Disable);
+    }
+}
+
+@mixin btn_third_linear_m{ //漸層樣式
+    @include font16B;
+    @include btn_common;
+    padding: 12px 24px;
+    background: $thirdLinear;
+    color: map-get($support_colors, 0);
+    &:hover{
+        background: $third200;
+    }
+    &:active{
+        background: $third;
+    }
+    &.disabled{
+        background:$thirdDisable;
+    }
+}
+
+
+
+@mixin btn_third_txt_m{ //文字模式
+    @include font16B;
+    @include btn_common;
+    padding: 12px 24px;
+    background: transparent;
+    color: map-get($support_colors, HighEmphasis);
+    &:hover{
+        color: map-get($third_colors, Third);
+    }
+    &:active{
+        color: map-get($third_colors, Third);
+    }
+    &.disabled{
+        color: map-get($third_colors, Disable);
+    }
+}
+
+@mixin btn_txt_third{
+    @include font12B;
+    color: map-get($third_colors, Third);
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+@mixin btn_txt_third12R{
+    @include font12R;
+    color: map-get($third_colors, Third);
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+@mixin btn_txt_third16R{
+    @include font16R;
+    color: map-get($third_colors, Third);
+    text-decoration: underline;
+    &:hover{
+        @include font16B;
+        text-decoration: underline;
+    }
+}
+
+@mixin icon_arrow{
+    width: 16px;
+    height: 16px;
+    background: url("../images/icon_arrow.svg") no-repeat center center;
+    background-size: cover;
+}
+
+//實心圓形icon - common
+@mixin icon_common($display, $borderRadius, $width, $height){
+    display: $display;
+    border-radius: $borderRadius;
+    width: $width;
+    height: $height;
+    background-color: map-get($support_colors, 400);
+}
+
+
+//user_icon - common
+@mixin userIcon($width, $height, $borderRadius, $overFlow){
+    width: $width;
+    height: $height;
+    border-radius: $borderRadius;
+    overflow: $overFlow;
+}

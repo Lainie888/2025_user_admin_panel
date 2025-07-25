@@ -1,0 +1,26 @@
+@import "_variable.scss";
+
+$icons: (
+    backup,
+    monitor,
+    analysis,
+    dropdown,
+    plus,
+    channelsManage,
+    accountManage_s,
+    accountManage,
+    channelsManage_s,
+    signOut,
+    fb,
+    instagram,
+    threads,
+    youtube,
+    x,
+);
+
+@each $icon in $icons {
+    .icon_#{$icon} {
+        background: url("../images/icon_#{$icon}.svg") no-repeat center center;
+        background-size: cover;
+    }
+}

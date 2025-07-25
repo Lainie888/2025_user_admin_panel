@@ -1,0 +1,75 @@
+//框架class style
+@import "_variable.scss";
+@import "_mixin.scss";
+
+
+.wrapper{
+    width: $base;
+    height: $base;
+    @extend %disPlayFlex;
+    margin: 0 auto;
+    background: #F5F8FA;
+}
+
+.contentGroup{
+    width: $base;
+    .main_Content{
+        width: $base;
+    }
+}
+
+.headerGroup{
+    width: $base;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px 0 4px 0;
+    top: 0;
+    &_Page{
+        position: sticky;
+        z-index: 998;
+        background: rgba($color: #F5F8FA, $alpha: 0.8);
+        box-shadow: 0 0 2px rgba($color: #000, $alpha: 0.1);
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    @include tablet{
+        max-width: $base;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .header{
+        .container-fluid{
+            @include container-fluid;
+            .row{
+                @include row;
+                .col{
+                    @include col;
+                }
+            }
+        }
+    }
+}
+
+.footerGroup{
+    position: relative;
+    width:$base;
+    margin-left: auto;
+    margin-right: auto;
+    @include tablet{
+        max-width:$base;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .footer{
+        .container-fluid{
+            @include container-fluid;
+            .row{
+                @include row;
+                .col{
+                    @include col;
+                }
+            }
+        }
+    }
+    
+}

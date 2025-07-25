@@ -1,0 +1,44 @@
+@import "_variable.scss";
+
+.main_content_page { //頁面 主內容區域
+    width: 869px;
+    @extend %disPlayFlexColumn;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    .txt_titGroup{
+        width: 688px;
+        @extend %disPlayFlexColumn;
+        justify-content: center;
+        .txt_tit, .txt_content{
+            color: map-get($support_colors, HighEmphasis);
+        }
+        .txt_tit{
+            @include font26B;
+            margin-bottom: 12px;
+        }
+        .txt_content{
+            @include font16R;
+            margin-bottom: $paddingBase * 1.5; //24
+        }
+    }
+    .channel_contentBox{ //資產保險箱頁 / 續航引擎頁 / 頻道管理頁：初始 新增頻道 default
+        width: 688px;
+        background-color: map-get($support_colors, 0);
+        border-radius: nth($borderRadius, 2);
+        padding: $paddingBase * 2.625;
+        box-shadow: 0 1px 10px rgba($color: #4F4F4F, $alpha: 0.1);
+        @extend %disPlayFlexColumn;
+        .btnGroup{ 
+            @extend %disPlayFlexColumn;
+            @extend %disPlayFlex;
+            .icon_plus{
+                @include icon_common(block,50% ,60px ,60px);
+                margin-bottom: 24px;
+            }
+            .btn_third_linear_s{
+                @include btn_third_linear_s;
+            }
+        }
+    }
+}

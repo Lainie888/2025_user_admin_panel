@@ -1,0 +1,1757 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  position: relative;
+  line-height: 1.5;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+ul, ol, .form-check {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, dl, dd {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.form-control {
+  border: 0px;
+}
+.form-control:focus {
+  border: 1px solid rgba(45, 47, 48, 0.1);
+  box-shadow: none;
+}
+
+.addchannel_contentBox .btnGroup, .footer .col ul li, .footer .col ul, .footer .col, .footer, .footerGroup, .header .headerLOGO, .header, .main_content_page .channel_contentBox .btnGroup, .sideGroup_left ul li a, .registerGroup .formGroup .formBox_photo, #cancelChannelsModal .cancelChannelsBox .channelsGroup, .accountPhotoBox li, .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerGroup .formGroup .txt_tip_register .btn_txt_third12R {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentGroup .main_Content_register, .contentBox, .addchannel_contentBox .select_channelsBox ul, .addchannel_contentBox .select_channelsBox, .addchannel_contentBox, .haderPage_Group .userGroup_dropDown .dropDown_nav ul, .haderPage_Group .userGroup_dropDown, .main_content_page .channel_contentBox .btnGroup, .main_content_page .channel_contentBox, .main_content_page .txt_titGroup, .main_content_page, .sideGroup_left ul, .registerGroup .formGroup .formBox .listGroup ul, #cancelChannelsModal .cancelChannelsBox .channelsGroup li a .txtGroup, #cancelChannelsModal .cancelChannelsBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .container1920, .header .container1920, .footerGroup .footer .container-fluid .row .col, .headerGroup .header .container-fluid .row .col {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.addchannel_contentBox .btnGroup, .footer .col ul li, .footer .col ul, .footer .col, .footer, .footerGroup, .header .headerLOGO, .header, .main_content_page .channel_contentBox .btnGroup, .sideGroup_left ul li a, .registerGroup .formGroup .formBox_photo, #cancelChannelsModal .cancelChannelsBox .channelsGroup, .accountPhotoBox li, .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerGroup .formGroup .txt_tip_register .btn_txt_third12R {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentGroup .main_Content_register, .contentBox, .addchannel_contentBox .select_channelsBox ul, .addchannel_contentBox .select_channelsBox, .addchannel_contentBox, .haderPage_Group .userGroup_dropDown .dropDown_nav ul, .haderPage_Group .userGroup_dropDown, .main_content_page .channel_contentBox .btnGroup, .main_content_page .channel_contentBox, .main_content_page .txt_titGroup, .main_content_page, .sideGroup_left ul, .registerGroup .formGroup .formBox .listGroup ul, #cancelChannelsModal .cancelChannelsBox .channelsGroup li a .txtGroup, #cancelChannelsModal .cancelChannelsBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .container1920, .header .container1920, .footerGroup .footer .container-fluid .row .col, .headerGroup .header .container-fluid .row .col {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.addchannel_contentBox .btnGroup, .footer .col ul li, .footer .col ul, .footer .col, .footer, .footerGroup, .header .headerLOGO, .header, .main_content_page .channel_contentBox .btnGroup, .sideGroup_left ul li a, .registerGroup .formGroup .formBox_photo, #cancelChannelsModal .cancelChannelsBox .channelsGroup, .accountPhotoBox li, .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerGroup .formGroup .txt_tip_register .btn_txt_third12R {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentGroup .main_Content_register, .contentBox, .addchannel_contentBox .select_channelsBox ul, .addchannel_contentBox .select_channelsBox, .addchannel_contentBox, .haderPage_Group .userGroup_dropDown .dropDown_nav ul, .haderPage_Group .userGroup_dropDown, .main_content_page .channel_contentBox .btnGroup, .main_content_page .channel_contentBox, .main_content_page .txt_titGroup, .main_content_page, .sideGroup_left ul, .registerGroup .formGroup .formBox .listGroup ul, #cancelChannelsModal .cancelChannelsBox .channelsGroup li a .txtGroup, #cancelChannelsModal .cancelChannelsBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .container1920, .header .container1920, .footerGroup .footer .container-fluid .row .col, .headerGroup .header .container-fluid .row .col {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.addchannel_contentBox .btnGroup, .footer .col ul li, .footer .col ul, .footer .col, .footer, .footerGroup, .header .headerLOGO, .header, .main_content_page .channel_contentBox .btnGroup, .sideGroup_left ul li a, .registerGroup .formGroup .formBox_photo, #cancelChannelsModal .cancelChannelsBox .channelsGroup, .accountPhotoBox li, .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerGroup .formGroup .txt_tip_register .btn_txt_third12R {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentGroup .main_Content_register, .contentBox, .addchannel_contentBox .select_channelsBox ul, .addchannel_contentBox .select_channelsBox, .addchannel_contentBox, .haderPage_Group .userGroup_dropDown .dropDown_nav ul, .haderPage_Group .userGroup_dropDown, .main_content_page .channel_contentBox .btnGroup, .main_content_page .channel_contentBox, .main_content_page .txt_titGroup, .main_content_page, .sideGroup_left ul, .registerGroup .formGroup .formBox .listGroup ul, #cancelChannelsModal .cancelChannelsBox .channelsGroup li a .txtGroup, #cancelChannelsModal .cancelChannelsBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .container1920, .header .container1920, .footerGroup .footer .container-fluid .row .col, .headerGroup .header .container-fluid .row .col {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background: #F5F8FA;
+}
+
+.contentGroup {
+  width: 100%;
+}
+.contentGroup .main_Content {
+  width: 100%;
+}
+
+.headerGroup {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4px 0 4px 0;
+  top: 0;
+}
+.headerGroup_Page {
+  position: sticky;
+  z-index: 998;
+  background: rgba(245, 248, 250, 0.8);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) and (max-width: 1366px) {
+  .headerGroup {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.headerGroup .header .container-fluid {
+  max-width: 100%;
+}
+.headerGroup .header .container-fluid .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.headerGroup .header .container-fluid .row .col {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+}
+
+.footerGroup {
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 768px) and (max-width: 1366px) {
+  .footerGroup {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.footerGroup .footer .container-fluid {
+  max-width: 100%;
+}
+.footerGroup .footer .container-fluid .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.footerGroup .footer .container-fluid .row .col {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+}
+
+.addchannel_contentBox .btnGroup, .footer .col ul li, .footer .col ul, .footer .col, .footer, .footerGroup, .header .headerLOGO, .header, .main_content_page .channel_contentBox .btnGroup, .sideGroup_left ul li a, .registerGroup .formGroup .formBox_photo, #cancelChannelsModal .cancelChannelsBox .channelsGroup, .accountPhotoBox li, .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerGroup .formGroup .txt_tip_register .btn_txt_third12R {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentGroup .main_Content_register, .contentBox, .addchannel_contentBox .select_channelsBox ul, .addchannel_contentBox .select_channelsBox, .addchannel_contentBox, .haderPage_Group .userGroup_dropDown .dropDown_nav ul, .haderPage_Group .userGroup_dropDown, .main_content_page .channel_contentBox .btnGroup, .main_content_page .channel_contentBox, .main_content_page .txt_titGroup, .main_content_page, .sideGroup_left ul, .registerGroup .formGroup .formBox .listGroup ul, #cancelChannelsModal .cancelChannelsBox .channelsGroup li a .txtGroup, #cancelChannelsModal .cancelChannelsBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .container1920, .header .container1920, .headerGroup .header .container-fluid .row .col, .footerGroup .footer .container-fluid .row .col {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.addchannel_contentBox .btnGroup, .footer .col ul li, .footer .col ul, .footer .col, .footer, .footerGroup, .header .headerLOGO, .header, .main_content_page .channel_contentBox .btnGroup, .sideGroup_left ul li a, .registerGroup .formGroup .formBox_photo, #cancelChannelsModal .cancelChannelsBox .channelsGroup, .accountPhotoBox li, .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerGroup .formGroup .txt_tip_register .btn_txt_third12R {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentGroup .main_Content_register, .contentBox, .addchannel_contentBox .select_channelsBox ul, .addchannel_contentBox .select_channelsBox, .addchannel_contentBox, .haderPage_Group .userGroup_dropDown .dropDown_nav ul, .haderPage_Group .userGroup_dropDown, .main_content_page .channel_contentBox .btnGroup, .main_content_page .channel_contentBox, .main_content_page .txt_titGroup, .main_content_page, .sideGroup_left ul, .registerGroup .formGroup .formBox .listGroup ul, #cancelChannelsModal .cancelChannelsBox .channelsGroup li a .txtGroup, #cancelChannelsModal .cancelChannelsBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .container1920, .header .container1920, .headerGroup .header .container-fluid .row .col, .footerGroup .footer .container-fluid .row .col {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.modal_dialog {
+  margin: 0 auto;
+}
+@media (min-width: 768px) and (max-width: 1366px) {
+  .modal_dialog {
+    margin: 1.75em auto;
+  }
+}
+@media (min-width: 1367px) {
+  .modal_dialog.modal_dialogWidth800 {
+    max-width: 800px;
+  }
+  .modal_dialog.modal_dialogWidth500 {
+    max-width: 500px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1366px) {
+  .modal_dialog.modal_dialogWidth800 {
+    max-width: 800px;
+  }
+  .modal_dialog.modal_dialogWidth500 {
+    max-width: 500px;
+  }
+}
+.modal_dialog .modal-content {
+  border-radius: 24px;
+  border: 0;
+  padding: 16px 24px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+.modal_dialog .modal-content .modal-header {
+  padding: 0;
+  border-bottom: 0;
+}
+.modal_dialog .modal-content .modal-header .modal-title {
+  font-size: 26px;
+  line-height: 39px;
+  font-weight: bold;
+  color: #4F5153;
+  text-align: center;
+  width: 100%;
+}
+.modal_dialog .modal-content .modal-header .btn-close {
+  width: 24px;
+  height: 24px;
+  color: #AEB1B2;
+  padding: 6px;
+  margin: 0;
+}
+.modal_dialog .modal-content .modal-header .btn-close:hover {
+  color: #2D2F30;
+}
+.modal_dialog .modal-content .modal-header .btn-close:focus {
+  box-shadow: none;
+}
+.modal_dialog .modal-content .modal-body {
+  padding: 24px 0;
+}
+.modal_dialog .modal-content .modal-footer {
+  justify-content: center;
+  padding: 0;
+  border-top: 0;
+  padding: 12px 0;
+}
+.modal_dialog .modal-content .modal-footer .btn_third_linear_s {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  display: block;
+  border-radius: 32px;
+  text-align: center;
+  padding: 8px 16px;
+  background: linear-gradient(to right, #3594c2 0%, #90d9fd 100%);
+  color: #ffffff;
+  border: 0;
+}
+.modal_dialog .modal-content .modal-footer .btn_third_linear_s:focus {
+  box-shadow: none;
+}
+.modal_dialog .modal-content .modal-footer .btn_third_linear_s:hover {
+  background: #70D0FF;
+}
+.modal_dialog .modal-content .modal-footer .btn_third_linear_s:active {
+  background: #3594C2;
+}
+.modal_dialog .modal-content .modal-footer .btn_third_linear_s.disabled {
+  background: rgba(53, 148, 194, 0.3);
+}
+.modal_dialog .modal-content .modal-footer .btn_third_outline_s {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  display: block;
+  border-radius: 32px;
+  text-align: center;
+  padding: 8px 16px;
+  background-color: #ffffff;
+  border: 1px solid #3594C2;
+  color: #3594C2;
+  margin-right: 16px;
+}
+.modal_dialog .modal-content .modal-footer .btn_third_outline_s:focus {
+  box-shadow: none;
+}
+.modal_dialog .modal-content .modal-footer .btn_third_outline_s:hover {
+  background-color: #70D0FF;
+  border: 0;
+  color: #ffffff;
+}
+.modal_dialog .modal-content .modal-footer .btn_third_outline_s:active {
+  background-color: #3594C2;
+}
+.modal_dialog .modal-content .modal-footer .btn_third_outline_s.disabled {
+  background-color: rgba(53, 148, 194, 0.3);
+}
+
+.termsBox li .txt_tit {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #2D2F30;
+  padding-bottom: 12px;
+}
+.termsBox li .termxContentBox li {
+  color: #4F5153;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  padding-left: 10px;
+  list-style: circle;
+  list-style-position: inside;
+  padding-bottom: 8px;
+}
+
+.accountPhotoBox {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.accountPhotoBox li {
+  width: calc(25% - 24px);
+  height: 80px;
+  background-color: #AEB1B2;
+  border-radius: 50%;
+  margin-bottom: 24px;
+  margin-right: 12px;
+  margin-left: 12px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.accountPhotoBox li:hover {
+  border: 3px solid #3594C2;
+}
+.accountPhotoBox li .photoImg {
+  width: 68px;
+  height: 68px;
+}
+
+.textAlign {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #4F5153;
+  padding-bottom: 12px;
+}
+
+#cancelChannelsModal .cancelChannelsBox .txt_tit {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  text-align: center;
+  padding-bottom: 24px;
+}
+#cancelChannelsModal .cancelChannelsBox .channelsGroup {
+  width: 100%;
+}
+#cancelChannelsModal .cancelChannelsBox .channelsGroup li a {
+  min-width: 156px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #CBCED0;
+  border-radius: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+#cancelChannelsModal .cancelChannelsBox .channelsGroup li a .icon {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+}
+#cancelChannelsModal .cancelChannelsBox .channelsGroup li a .txtGroup {
+  align-items: center;
+}
+#cancelChannelsModal .cancelChannelsBox .channelsGroup li a .txtGroup .txt_channels {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #6F7173;
+  padding-left: 12px;
+  min-width: 63px;
+  text-align: center;
+}
+#cancelChannelsModal .cancelChannelsBox .channelsGroup li a .txtGroup .txt_addedChannels {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #AEB1B2;
+}
+#cancelChannelsModal .cancelChannelsBox .channelsGroup li a:hover, #cancelChannelsModal .cancelChannelsBox .channelsGroup li a:active, #cancelChannelsModal .cancelChannelsBox .channelsGroup li a.active {
+  border: 1px solid #3594C2;
+}
+#cancelChannelsModal .cancelChannelsBox .channelsGroup li a.disabled {
+  background: #CBCED0;
+  border: none;
+}
+#cancelChannelsModal .cancelChannelsBox .channelsGroup li a.disabled .icon {
+  opacity: 0.5;
+}
+#cancelChannelsModal .cancelChannelsBox .channelsGroup li a.disabled .txt_channels {
+  color: #AEB1B2;
+}
+#cancelChannelsModal .cancelChannelsBox .channelsBox {
+  padding-top: 72px;
+  padding-bottom: 100px;
+}
+#cancelChannelsModal .cancelChannelsBox .channelsBox .txt_tit {
+  color: #AEB1B2;
+}
+#cancelChannelsModal .modal-footer button {
+  min-width: 89px;
+}
+#cancelChannelsModal .modal-footer .btn_third_outline_s {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  display: block;
+  border-radius: 32px;
+  text-align: center;
+  padding: 8px 16px;
+  background-color: #ffffff;
+  border: 1px solid #3594C2;
+  color: #3594C2;
+}
+#cancelChannelsModal .modal-footer .btn_third_outline_s:focus {
+  box-shadow: none;
+}
+#cancelChannelsModal .modal-footer .btn_third_outline_s:hover {
+  background-color: #70D0FF;
+  border: 0;
+  color: #ffffff;
+}
+#cancelChannelsModal .modal-footer .btn_third_outline_s:active {
+  background-color: #3594C2;
+}
+#cancelChannelsModal .modal-footer .btn_third_outline_s.disabled {
+  background-color: rgba(53, 148, 194, 0.3);
+}
+
+#canceledChannelsModal .modal-body {
+  display: none;
+}
+#canceledChannelsModal .modal-footer {
+  margin-top: 12px;
+}
+#canceledChannelsModal .modal-footer button {
+  min-width: 89px;
+}
+
+#repeatedlyAddChannelsModal .repeatedlyAddChannelBox {
+  text-align: center;
+}
+
+.addchannel_contentBox .btnGroup, .footer .col ul li, .footer .col ul, .footer .col, .footer, .footerGroup, .header .headerLOGO, .header, .main_content_page .channel_contentBox .btnGroup, .sideGroup_left ul li a, .registerGroup .formGroup .formBox_photo, .wrapper, .accountPhotoBox li, #cancelChannelsModal .cancelChannelsBox .channelsGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerGroup .formGroup .txt_tip_register .btn_txt_third12R {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentGroup .main_Content_register, .contentBox, .addchannel_contentBox .select_channelsBox ul, .addchannel_contentBox .select_channelsBox, .addchannel_contentBox, .haderPage_Group .userGroup_dropDown .dropDown_nav ul, .haderPage_Group .userGroup_dropDown, .main_content_page .channel_contentBox .btnGroup, .main_content_page .channel_contentBox, .main_content_page .txt_titGroup, .main_content_page, .sideGroup_left ul, .registerGroup .formGroup .formBox .listGroup ul, #cancelChannelsModal .cancelChannelsBox, #cancelChannelsModal .cancelChannelsBox .channelsGroup li a .txtGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .container1920, .header .container1920, .headerGroup .header .container-fluid .row .col, .footerGroup .footer .container-fluid .row .col {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.registerGroup {
+  width: 444px;
+  height: auto;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 42px;
+  margin-top: 90px;
+}
+.registerGroup_success {
+  margin-top: 16px;
+}
+.registerGroup .txt_tit {
+  text-align: center;
+  color: #2D2F30;
+  font-size: 26px;
+  line-height: 39px;
+  font-weight: bold;
+  padding-bottom: 24px;
+  letter-spacing: 0.008em;
+}
+.registerGroup .txt_content {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #2D2F30;
+  padding-bottom: 24px;
+}
+.registerGroup .formGroup {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.registerGroup .formGroup .formBox {
+  padding-bottom: 24px;
+}
+.registerGroup .formGroup .formBox_photo {
+  width: 80px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.registerGroup .formGroup .formBox .icon_edit {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/pen.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #AEB1B2;
+  position: absolute;
+  margin-bottom: -65px;
+  margin-right: -54px;
+  z-index: 9;
+}
+.registerGroup .formGroup .formBox .form_label {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #2D2F30;
+  display: block;
+  margin-bottom: 4px;
+}
+.registerGroup .formGroup .formBox .form_label .txt_required {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #D63B2D;
+}
+.registerGroup .formGroup .formBox .form_input {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  padding: 8px 10px 8px 16px;
+  background-color: rgba(45, 47, 48, 0.1);
+  border-radius: 24px;
+  color: #2D2F30;
+}
+.registerGroup .formGroup .formBox .form_input.error {
+  border: 1px solid #A8071A;
+}
+.registerGroup .formGroup .formBox .form_input:focus {
+  border-color: #3594C2;
+}
+.registerGroup .formGroup .formBox .FormControlInputBirthdayGroup {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.registerGroup .formGroup .formBox .FormControlInputBirthdayGroup > li {
+  width: calc(33.3333333333% - 8px);
+  display: flex;
+  flex-wrap: nowrap;
+}
+.registerGroup .formGroup .formBox .FormControlInputBirthdayGroup > li:not(:last-child) {
+  margin-right: 8px;
+}
+.registerGroup .formGroup .formBox .FormControlInputBirthdayGroup > li .FormControlInputBirthday {
+  width: 100%;
+  padding: 8px 16px;
+  border-radius: 24px;
+}
+.registerGroup .formGroup .formBox .FormSecurityCodeGroup {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.registerGroup .formGroup .formBox .FormSecurityCodeGroup > li {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.registerGroup .formGroup .formBox .FormSecurityCodeGroup > li .FormSecurityCode {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 12px;
+  text-align: center;
+}
+.registerGroup .formGroup .formBox .txt_error {
+  color: #A8071A;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: normal;
+  display: block;
+}
+.registerGroup .formGroup .formBox .txt_tip_third {
+  color: #3594C2;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: normal;
+  display: block;
+}
+.registerGroup .formGroup .formBox .txt_tip_login {
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+}
+.registerGroup .formGroup .formBox .txt_tip_login .txt_error {
+  color: #A8071A;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: normal;
+  display: inline-block;
+}
+.registerGroup .formGroup .formBox .txt_tip_login .btn_txt_third12R {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: normal;
+  color: #3594C2;
+}
+.registerGroup .formGroup .formBox .txt_tip_login .btn_txt_third12R:hover {
+  text-decoration: underline;
+}
+.registerGroup .formGroup .formBox .btn_txt_third12R {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: normal;
+  color: #3594C2;
+}
+.registerGroup .formGroup .formBox .btn_txt_third12R:hover {
+  text-decoration: underline;
+}
+.registerGroup .formGroup .formBox #FormControlInputVerificationCode {
+  width: 213px;
+  display: inline-block;
+}
+.registerGroup .formGroup .formBox .txtVerificationCode {
+  float: right;
+  min-width: 80px;
+  color: #2D2F30;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  display: inline-block;
+  padding: 8px 0;
+}
+.registerGroup .formGroup .formBox .txtVerificationCode:after {
+  clear: both;
+}
+.registerGroup .formGroup .formBox .txtVerificationCode:hover {
+  color: #3594C2;
+}
+.registerGroup .formGroup .formBox .txtVerificationCode.disabled {
+  color: #AEB1B2;
+}
+.registerGroup .formGroup .formBox .txtVerificationCode .txt_tip {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: normal;
+  color: #AEB1B2;
+}
+.registerGroup .formGroup .formBox .listGroup {
+  width: 100%;
+  display: flex;
+}
+.registerGroup .formGroup .formBox .listGroup ul {
+  width: 100%;
+}
+.registerGroup .formGroup .formBox .listGroup ul li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.registerGroup .formGroup .formBox .listGroup ul li .iconGroup_l {
+  margin-right: 24px;
+}
+.registerGroup .formGroup .formBox .listGroup ul li .iconGroup_l .icon {
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+.registerGroup .formGroup .formBox .listGroup ul li .txtGroup_r .txt_tits {
+  font-size: 26px;
+  line-height: 39px;
+  font-weight: bold;
+  color: #2D2F30;
+}
+.registerGroup .formGroup .formBox .listGroup ul li .txtGroup_r .txt_contents {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #2D2F30;
+}
+.registerGroup .formGroup .formBox .btn_third_linear_m {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  display: block;
+  border-radius: 32px;
+  text-align: center;
+  padding: 12px 24px;
+  background: linear-gradient(to right, #3594c2 0%, #90d9fd 100%);
+  color: #ffffff;
+}
+.registerGroup .formGroup .formBox .btn_third_linear_m:focus {
+  box-shadow: none;
+}
+.registerGroup .formGroup .formBox .btn_third_linear_m:hover {
+  background: #70D0FF;
+}
+.registerGroup .formGroup .formBox .btn_third_linear_m:active {
+  background: #3594C2;
+}
+.registerGroup .formGroup .formBox .btn_third_linear_m.disabled {
+  background: rgba(53, 148, 194, 0.3);
+}
+.registerGroup .formGroup .formBox .btn_third_txt_m {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  display: block;
+  border-radius: 32px;
+  text-align: center;
+  padding: 12px 24px;
+  background: transparent;
+  color: #2D2F30;
+  margin-top: 16px;
+}
+.registerGroup .formGroup .formBox .btn_third_txt_m:focus {
+  box-shadow: none;
+}
+.registerGroup .formGroup .formBox .btn_third_txt_m:hover {
+  color: #3594C2;
+}
+.registerGroup .formGroup .formBox .btn_third_txt_m:active {
+  color: #3594C2;
+}
+.registerGroup .formGroup .formBox .btn_third_txt_m.disabled {
+  color: rgba(53, 148, 194, 0.3);
+}
+.registerGroup .formGroup .formBox .dropdownGroup {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  padding: 8px 10px 8px 16px;
+  background-color: rgba(45, 47, 48, 0.1);
+  border-radius: 24px;
+  color: #2D2F30;
+  border-radius: 24px;
+}
+.registerGroup .formGroup .formBox .dropdownGroup.error {
+  border: 1px solid #A8071A;
+}
+.registerGroup .formGroup .formBox .dropdownGroup .dropdown_toggle {
+  color: #2D2F30;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  background-color: transparent;
+  border-color: transparent;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.registerGroup .formGroup .formBox .dropdownGroup .dropdown_toggle:focus {
+  box-shadow: none;
+}
+.registerGroup .formGroup .formBox .dropdownGroup .dropdown_toggle:after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: url("../images/icon_dropdown.svg") no-repeat center center;
+  background-size: cover;
+  display: inline-block;
+  border: 0;
+}
+.registerGroup .formGroup .formBox .dropdownGroup .dropdown_menu {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  padding: 8px 10px 8px 16px;
+  background: #E1E2E2;
+  border-radius: 24px;
+  color: #2D2F30;
+  border: 0;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: -16px;
+}
+.registerGroup .formGroup .formBox .dropdownGroup .dropdown_menu.show {
+  transform: translate3d(0px, 44px, 0px) !important;
+}
+.registerGroup .formGroup .formBox .dropdownGroup .dropdown_menu > li:not(:last-child) {
+  margin-bottom: 6px;
+}
+.registerGroup .formGroup .formBox .dropdownGroup .dropdown_menu > li .dropdown_item:hover {
+  background: rgba(45, 47, 48, 0.1);
+  border-radius: 6px;
+}
+.registerGroup .formGroup .formBox .dropdownGroup .dropdown_menu > li .dropdown_item:active {
+  color: #ffffff;
+  background-color: #AEB1B2;
+  border-radius: 6px;
+}
+.registerGroup .formGroup .photoBox {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+.registerGroup .formGroup .txt_tip_register {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+.registerGroup .formGroup .txt_tip_register span {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: normal;
+  color: #AEB1B2;
+  padding-right: 17px;
+}
+.registerGroup .formGroup .txt_tip_register .btn_txt_third12R {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: normal;
+  color: #3594C2;
+}
+.registerGroup .formGroup .txt_tip_register .btn_txt_third12R:hover {
+  text-decoration: underline;
+}
+.registerGroup .formGroup .txt_tip_register .icon_arrow:after {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("../images/icon_arrow.svg") no-repeat center center;
+  background-size: cover;
+}
+.registerGroup .formGroup .form_check {
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.registerGroup .formGroup .form_check .form_checkedBox {
+  margin-left: -10px;
+  margin-top: 0;
+  border: 0;
+  border-radius: 0;
+}
+.registerGroup .formGroup .form_check .form_checkedBox:checked {
+  background-color: #ffffff;
+  border-color: transparent;
+}
+.registerGroup .formGroup .form_check .form_checkedBox:checked[type=checkbox] {
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-image: url("../images/checkbox_checked.svg");
+  background-size: cover;
+}
+.registerGroup .formGroup .form_check .form_check_label {
+  text-indent: -999px;
+}
+.registerGroup .formGroup .form_check .btn_txt_third16R {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #3594C2;
+  text-decoration: underline;
+  background-color: transparent;
+  border-color: transparent;
+  padding: 0;
+  border: 0;
+  padding-left: 6px;
+}
+.registerGroup .formGroup .form_check .btn_txt_third16R:hover {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.registerGroup .formGroup .form_check .btn_txt_third16R:hover {
+  background-color: transparent;
+  border-color: transparent;
+}
+.registerGroup .formGroup .form_check .btn_txt_third16R:focus {
+  box-shadow: none;
+}
+
+.addchannel_contentBox .btnGroup, .footer .col ul li, .footer .col ul, .footer .col, .footer, .footerGroup, .header .headerLOGO, .header, .main_content_page .channel_contentBox .btnGroup, .sideGroup_left ul li a, .wrapper, .accountPhotoBox li, #cancelChannelsModal .cancelChannelsBox .channelsGroup, .registerGroup .formGroup .formBox_photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerGroup .formGroup .txt_tip_register .btn_txt_third12R {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentGroup .main_Content_register, .contentBox, .addchannel_contentBox .select_channelsBox ul, .addchannel_contentBox .select_channelsBox, .addchannel_contentBox, .haderPage_Group .userGroup_dropDown .dropDown_nav ul, .haderPage_Group .userGroup_dropDown, .main_content_page .channel_contentBox .btnGroup, .main_content_page .channel_contentBox, .main_content_page .txt_titGroup, .main_content_page, .sideGroup_left ul, #cancelChannelsModal .cancelChannelsBox, #cancelChannelsModal .cancelChannelsBox .channelsGroup li a .txtGroup, .registerGroup .formGroup .formBox .listGroup ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .container1920, .header .container1920, .headerGroup .header .container-fluid .row .col, .footerGroup .footer .container-fluid .row .col {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.sideGroup_left {
+  min-width: 160px;
+  min-height: 153px;
+  height: auto;
+  display: flex;
+  padding: 16px;
+  border-radius: 12px;
+  background-color: #EBEEF0;
+  margin-right: 47px;
+}
+.sideGroup_left ul {
+  width: 100%;
+}
+.sideGroup_left ul li {
+  width: 100%;
+  display: flex;
+}
+.sideGroup_left ul li:not(:last-child) {
+  margin-bottom: 8px;
+}
+.sideGroup_left ul li a {
+  width: 100%;
+  flex-direction: row;
+}
+.sideGroup_left ul li a .icon {
+  display: block;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: #CBCED0;
+}
+.sideGroup_left ul li a p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #2D2F30;
+  padding-left: 4px;
+}
+.sideGroup_left ul li a:hover p, .sideGroup_left ul li a:active p, .sideGroup_left ul li a.active p {
+  color: #3594C2;
+  transition: all 0.3s ease-in;
+}
+
+.addchannel_contentBox .btnGroup, .footer .col ul li, .footer .col ul, .footer .col, .footer, .footerGroup, .header .headerLOGO, .header, .main_content_page .channel_contentBox .btnGroup, .wrapper, .accountPhotoBox li, #cancelChannelsModal .cancelChannelsBox .channelsGroup, .registerGroup .formGroup .formBox_photo, .sideGroup_left ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerGroup .formGroup .txt_tip_register .btn_txt_third12R {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentGroup .main_Content_register, .contentBox, .addchannel_contentBox .select_channelsBox ul, .addchannel_contentBox .select_channelsBox, .addchannel_contentBox, .haderPage_Group .userGroup_dropDown .dropDown_nav ul, .haderPage_Group .userGroup_dropDown, .main_content_page .channel_contentBox .btnGroup, .main_content_page .channel_contentBox, .main_content_page .txt_titGroup, .main_content_page, #cancelChannelsModal .cancelChannelsBox, #cancelChannelsModal .cancelChannelsBox .channelsGroup li a .txtGroup, .registerGroup .formGroup .formBox .listGroup ul, .sideGroup_left ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .container1920, .header .container1920, .headerGroup .header .container-fluid .row .col, .footerGroup .footer .container-fluid .row .col {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.main_content_page {
+  width: 869px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main_content_page .txt_titGroup {
+  width: 688px;
+  justify-content: center;
+}
+.main_content_page .txt_titGroup .txt_tit, .main_content_page .txt_titGroup .txt_content {
+  color: #2D2F30;
+}
+.main_content_page .txt_titGroup .txt_tit {
+  font-size: 26px;
+  line-height: 39px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.main_content_page .txt_titGroup .txt_content {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  margin-bottom: 24px;
+}
+.main_content_page .channel_contentBox {
+  width: 688px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 42px;
+  box-shadow: 0 1px 10px rgba(79, 79, 79, 0.1);
+}
+.main_content_page .channel_contentBox .btnGroup .icon_plus {
+  display: block;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: #CBCED0;
+  margin-bottom: 24px;
+}
+.main_content_page .channel_contentBox .btnGroup .btn_third_linear_s {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  display: block;
+  border-radius: 32px;
+  text-align: center;
+  padding: 8px 16px;
+  background: linear-gradient(to right, #3594c2 0%, #90d9fd 100%);
+  color: #ffffff;
+}
+.main_content_page .channel_contentBox .btnGroup .btn_third_linear_s:focus {
+  box-shadow: none;
+}
+.main_content_page .channel_contentBox .btnGroup .btn_third_linear_s:hover {
+  background: #70D0FF;
+}
+.main_content_page .channel_contentBox .btnGroup .btn_third_linear_s:active {
+  background: #3594C2;
+}
+.main_content_page .channel_contentBox .btnGroup .btn_third_linear_s.disabled {
+  background: rgba(53, 148, 194, 0.3);
+}
+
+.addchannel_contentBox .btnGroup, .footer .col ul li, .footer .col ul, .footer .col, .footer, .footerGroup, .header .headerLOGO, .header, .wrapper, .accountPhotoBox li, #cancelChannelsModal .cancelChannelsBox .channelsGroup, .registerGroup .formGroup .formBox_photo, .sideGroup_left ul li a, .main_content_page .channel_contentBox .btnGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerGroup .formGroup .txt_tip_register .btn_txt_third12R {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentGroup .main_Content_register, .contentBox, .addchannel_contentBox .select_channelsBox ul, .addchannel_contentBox .select_channelsBox, .addchannel_contentBox, .haderPage_Group .userGroup_dropDown .dropDown_nav ul, .haderPage_Group .userGroup_dropDown, #cancelChannelsModal .cancelChannelsBox, #cancelChannelsModal .cancelChannelsBox .channelsGroup li a .txtGroup, .registerGroup .formGroup .formBox .listGroup ul, .sideGroup_left ul, .main_content_page, .main_content_page .txt_titGroup, .main_content_page .channel_contentBox, .main_content_page .channel_contentBox .btnGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .container1920, .header .container1920, .headerGroup .header .container-fluid .row .col, .footerGroup .footer .container-fluid .row .col {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.sideGroup_right {
+  width: 444px;
+  background: #EBEEF0;
+}
+
+.addchannel_contentBox .btnGroup, .footer .col ul li, .footer .col ul, .footer .col, .footer, .footerGroup, .header .headerLOGO, .header, .wrapper, .accountPhotoBox li, #cancelChannelsModal .cancelChannelsBox .channelsGroup, .registerGroup .formGroup .formBox_photo, .sideGroup_left ul li a, .main_content_page .channel_contentBox .btnGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerGroup .formGroup .txt_tip_register .btn_txt_third12R {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentGroup .main_Content_register, .contentBox, .addchannel_contentBox .select_channelsBox ul, .addchannel_contentBox .select_channelsBox, .addchannel_contentBox, .haderPage_Group .userGroup_dropDown .dropDown_nav ul, .haderPage_Group .userGroup_dropDown, #cancelChannelsModal .cancelChannelsBox, #cancelChannelsModal .cancelChannelsBox .channelsGroup li a .txtGroup, .registerGroup .formGroup .formBox .listGroup ul, .sideGroup_left ul, .main_content_page, .main_content_page .txt_titGroup, .main_content_page .channel_contentBox, .main_content_page .channel_contentBox .btnGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .container1920, .header .container1920, .headerGroup .header .container-fluid .row .col, .footerGroup .footer .container-fluid .row .col {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.icon_backup {
+  background: url("../images/icon_backup.svg") no-repeat center center;
+  background-size: cover;
+}
+
+.icon_monitor {
+  background: url("../images/icon_monitor.svg") no-repeat center center;
+  background-size: cover;
+}
+
+.icon_analysis {
+  background: url("../images/icon_analysis.svg") no-repeat center center;
+  background-size: cover;
+}
+
+.icon_dropdown {
+  background: url("../images/icon_dropdown.svg") no-repeat center center;
+  background-size: cover;
+}
+
+.icon_plus {
+  background: url("../images/icon_plus.svg") no-repeat center center;
+  background-size: cover;
+}
+
+.icon_channelsManage {
+  background: url("../images/icon_channelsManage.svg") no-repeat center center;
+  background-size: cover;
+}
+
+.icon_accountManage_s {
+  background: url("../images/icon_accountManage_s.svg") no-repeat center center;
+  background-size: cover;
+}
+
+.icon_accountManage {
+  background: url("../images/icon_accountManage.svg") no-repeat center center;
+  background-size: cover;
+}
+
+.icon_channelsManage_s {
+  background: url("../images/icon_channelsManage_s.svg") no-repeat center center;
+  background-size: cover;
+}
+
+.icon_signOut {
+  background: url("../images/icon_signOut.svg") no-repeat center center;
+  background-size: cover;
+}
+
+.icon_fb {
+  background: url("../images/icon_fb.svg") no-repeat center center;
+  background-size: cover;
+}
+
+.icon_instagram {
+  background: url("../images/icon_instagram.svg") no-repeat center center;
+  background-size: cover;
+}
+
+.icon_threads {
+  background: url("../images/icon_threads.svg") no-repeat center center;
+  background-size: cover;
+}
+
+.icon_youtube {
+  background: url("../images/icon_youtube.svg") no-repeat center center;
+  background-size: cover;
+}
+
+.icon_x {
+  background: url("../images/icon_x.svg") no-repeat center center;
+  background-size: cover;
+}
+
+.addchannel_contentBox .btnGroup, .footer .col ul li, .footer .col ul, .footer .col, .footer, .footerGroup, .header .headerLOGO, .header, .wrapper, .accountPhotoBox li, #cancelChannelsModal .cancelChannelsBox .channelsGroup, .registerGroup .formGroup .formBox_photo, .sideGroup_left ul li a, .main_content_page .channel_contentBox .btnGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerGroup .formGroup .txt_tip_register .btn_txt_third12R {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentGroup .main_Content_register, .contentBox, .addchannel_contentBox .select_channelsBox ul, .addchannel_contentBox .select_channelsBox, .addchannel_contentBox, .haderPage_Group .userGroup_dropDown .dropDown_nav ul, .haderPage_Group .userGroup_dropDown, #cancelChannelsModal .cancelChannelsBox, #cancelChannelsModal .cancelChannelsBox .channelsGroup li a .txtGroup, .registerGroup .formGroup .formBox .listGroup ul, .sideGroup_left ul, .main_content_page, .main_content_page .txt_titGroup, .main_content_page .channel_contentBox, .main_content_page .channel_contentBox .btnGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .container1920, .header .container1920, .headerGroup .header .container-fluid .row .col, .footerGroup .footer .container-fluid .row .col {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.header {
+  height: 80px;
+  position: relative;
+}
+.header .container1920 {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1920px;
+}
+@media (min-width: 768px) and (max-width: 1366px) {
+  .header .container1920 {
+    max-width: 100%;
+  }
+}
+.header .headerLOGO {
+  width: 100%;
+  height: auto;
+}
+.header .headerLOGO .header_logo {
+  width: 465px;
+  height: 72px;
+}
+
+.addchannel_contentBox .btnGroup, .footer .col ul li, .footer .col ul, .footer .col, .footer, .footerGroup, .wrapper, .accountPhotoBox li, #cancelChannelsModal .cancelChannelsBox .channelsGroup, .registerGroup .formGroup .formBox_photo, .sideGroup_left ul li a, .main_content_page .channel_contentBox .btnGroup, .header, .header .headerLOGO {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerGroup .formGroup .txt_tip_register .btn_txt_third12R {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentGroup .main_Content_register, .contentBox, .addchannel_contentBox .select_channelsBox ul, .addchannel_contentBox .select_channelsBox, .addchannel_contentBox, .haderPage_Group .userGroup_dropDown .dropDown_nav ul, .haderPage_Group .userGroup_dropDown, #cancelChannelsModal .cancelChannelsBox, #cancelChannelsModal .cancelChannelsBox .channelsGroup li a .txtGroup, .registerGroup .formGroup .formBox .listGroup ul, .sideGroup_left ul, .main_content_page, .main_content_page .txt_titGroup, .main_content_page .channel_contentBox, .main_content_page .channel_contentBox .btnGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .container1920, .headerGroup .header .container-fluid .row .col, .footerGroup .footer .container-fluid .row .col, .header .container1920 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.footer {
+  width: 100%;
+  padding-bottom: 36px;
+}
+@media (min-width: 1367px) {
+  .footer {
+    max-width: 1600px;
+  }
+}
+.footer .container1920 {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1920px;
+}
+@media (min-width: 768px) and (max-width: 1366px) {
+  .footer .container1920 {
+    max-width: 100%;
+  }
+}
+.footer .col ul {
+  width: 100%;
+  max-width: 500px;
+  flex-wrap: nowrap;
+  padding-top: 10px;
+}
+.footer .col ul li {
+  align-items: center;
+}
+.footer .col ul li:not(:last-child) {
+  padding-right: 5px;
+}
+.footer .col ul li:not(:last-child)::after {
+  content: " | ";
+  display: block;
+  color: #2D2F30;
+  padding-left: 5px;
+}
+.footer .col ul li a {
+  font-size: 12px;
+  color: #2D2F30;
+  display: block;
+}
+.footer .col ul li a:hover {
+  color: #3594C2;
+}
+.footer .col ul li p {
+  font-size: 12px;
+  color: #2D2F30;
+  display: block;
+}
+
+.addchannel_contentBox .btnGroup, .wrapper, .accountPhotoBox li, #cancelChannelsModal .cancelChannelsBox .channelsGroup, .registerGroup .formGroup .formBox_photo, .sideGroup_left ul li a, .main_content_page .channel_contentBox .btnGroup, .header, .header .headerLOGO, .footerGroup, .footer, .footer .col, .footer .col ul, .footer .col ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerGroup .formGroup .txt_tip_register .btn_txt_third12R {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentGroup .main_Content_register, .contentBox, .addchannel_contentBox .select_channelsBox ul, .addchannel_contentBox .select_channelsBox, .addchannel_contentBox, .haderPage_Group .userGroup_dropDown .dropDown_nav ul, .haderPage_Group .userGroup_dropDown, #cancelChannelsModal .cancelChannelsBox, #cancelChannelsModal .cancelChannelsBox .channelsGroup li a .txtGroup, .registerGroup .formGroup .formBox .listGroup ul, .sideGroup_left ul, .main_content_page, .main_content_page .txt_titGroup, .main_content_page .channel_contentBox, .main_content_page .channel_contentBox .btnGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerGroup .header .container-fluid .row .col, .footerGroup .footer .container-fluid .row .col, .header .container1920, .footer .container1920 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.haderPage_Group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.haderPage_Group .headerLOGO {
+  width: 465px;
+}
+.haderPage_Group .navGroup {
+  width: calc(100% - 465px - 552px);
+}
+.haderPage_Group .navGroup ul {
+  display: flex;
+  width: 33.3333333333%;
+}
+.haderPage_Group .navGroup ul li:not(:last-child) {
+  margin-right: 24px;
+}
+.haderPage_Group .navGroup ul li a {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  color: #848688;
+  white-space: nowrap;
+  position: relative;
+}
+.haderPage_Group .navGroup ul li a:hover, .haderPage_Group .navGroup ul li a:active, .haderPage_Group .navGroup ul li a.active, .haderPage_Group .navGroup ul li a:focus {
+  color: #3594C2;
+  transition: all 0.3s ease-in;
+}
+.haderPage_Group .navGroup ul li a:hover:after, .haderPage_Group .navGroup ul li a:active:after, .haderPage_Group .navGroup ul li a.active:after, .haderPage_Group .navGroup ul li a:focus:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 5px;
+  background-color: #3594C2;
+  border-radius: 5px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+}
+.haderPage_Group .userGroup {
+  width: 552px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.haderPage_Group .userGroup .user_icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+.haderPage_Group .userGroup .user_icon:hover {
+  border: 2px solid #3594C2;
+  transition: all 0.3s ease-in;
+}
+.haderPage_Group .userGroup_dropDown {
+  position: absolute;
+  z-index: 999;
+  width: 238px;
+  height: auto;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 1px 10px rgba(79, 79, 79, 0.1);
+  top: 73px;
+  right: 12px;
+  align-items: center;
+  text-align: center;
+  padding: 16px;
+  display: none;
+}
+.haderPage_Group .userGroup_dropDown .user_icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.haderPage_Group .userGroup_dropDown .useEmail {
+  width: 205px;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: normal;
+  color: #2D2F30;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 4px auto 12px auto;
+}
+.haderPage_Group .userGroup_dropDown .dropDown_nav {
+  width: 100%;
+  display: flex;
+}
+.haderPage_Group .userGroup_dropDown .dropDown_nav ul {
+  min-width: 121px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.haderPage_Group .userGroup_dropDown .dropDown_nav ul li {
+  width: 100%;
+  display: flex;
+}
+.haderPage_Group .userGroup_dropDown .dropDown_nav ul li:not(:last-child) {
+  margin-bottom: 8px;
+}
+.haderPage_Group .userGroup_dropDown .dropDown_nav ul li a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  flex-direction: row;
+}
+.haderPage_Group .userGroup_dropDown .dropDown_nav ul li a .icon {
+  display: block;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  background-color: #CBCED0;
+}
+.haderPage_Group .userGroup_dropDown .dropDown_nav ul li a p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #2D2F30;
+  padding-left: 4px;
+}
+.haderPage_Group .userGroup_dropDown .dropDown_nav ul li a:hover p, .haderPage_Group .userGroup_dropDown .dropDown_nav ul li a:active p, .haderPage_Group .userGroup_dropDown .dropDown_nav ul li a.active p {
+  color: #3594C2;
+  transition: all 0.3s ease-in;
+}
+
+.addchannel_contentBox .btnGroup, .wrapper, .accountPhotoBox li, #cancelChannelsModal .cancelChannelsBox .channelsGroup, .registerGroup .formGroup .formBox_photo, .sideGroup_left ul li a, .main_content_page .channel_contentBox .btnGroup, .header, .header .headerLOGO, .footerGroup, .footer, .footer .col, .footer .col ul, .footer .col ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerGroup .formGroup .txt_tip_register .btn_txt_third12R {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentGroup .main_Content_register, .contentBox, .addchannel_contentBox .select_channelsBox ul, .addchannel_contentBox .select_channelsBox, .addchannel_contentBox, #cancelChannelsModal .cancelChannelsBox, #cancelChannelsModal .cancelChannelsBox .channelsGroup li a .txtGroup, .registerGroup .formGroup .formBox .listGroup ul, .sideGroup_left ul, .main_content_page, .main_content_page .txt_titGroup, .main_content_page .channel_contentBox, .main_content_page .channel_contentBox .btnGroup, .haderPage_Group .userGroup_dropDown, .haderPage_Group .userGroup_dropDown .dropDown_nav ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerGroup .header .container-fluid .row .col, .footerGroup .footer .container-fluid .row .col, .header .container1920, .footer .container1920 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.addchannel_contentBox {
+  width: 688px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 42px;
+  box-shadow: 0 1px 10px rgba(79, 79, 79, 0.1);
+}
+.addchannel_contentBox .select_channelsBox {
+  width: 100%;
+  padding: 0 44px;
+}
+.addchannel_contentBox .select_channelsBox ul {
+  width: 100%;
+}
+.addchannel_contentBox .select_channelsBox ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  border: 1px solid #CBCED0;
+  border-radius: 12px;
+  padding: 12px;
+}
+.addchannel_contentBox .select_channelsBox ul li:not(:last-child) {
+  margin-bottom: 12px;
+}
+.addchannel_contentBox .select_channelsBox ul li .userBox, .addchannel_contentBox .select_channelsBox ul li .txtGroup {
+  padding-right: 16px;
+}
+.addchannel_contentBox .select_channelsBox ul li .userBox .icon {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.addchannel_contentBox .select_channelsBox ul li .txtGroup .txt_channelName {
+  width: 360px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #2D2F30;
+}
+.addchannel_contentBox .select_channelsBox ul li .checkBox {
+  width: 24px;
+  height: 24px;
+}
+.addchannel_contentBox .select_channelsBox ul li .checkBox .form_check {
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.addchannel_contentBox .select_channelsBox ul li .checkBox .form_check .form-check-input {
+  margin-left: 0;
+}
+.addchannel_contentBox .select_channelsBox ul li:hover, .addchannel_contentBox .select_channelsBox ul li:active, .addchannel_contentBox .select_channelsBox ul li.active {
+  border: 1px solid #3594C2;
+}
+.addchannel_contentBox .select_channelsBox ul li:not(:active) .icon_channel_check {
+  display: none;
+}
+.addchannel_contentBox .select_channelsBox ul li:active .icon_channel_check, .addchannel_contentBox .select_channelsBox ul li.active .icon_channel_check {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url("../images/icon_channel_check.svg") no-repeat center center;
+  background-size: cover;
+}
+.addchannel_contentBox .btnGroup {
+  margin-top: 24px;
+}
+.addchannel_contentBox .btnGroup a {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.addchannel_contentBox .btnGroup .btn_third_outline_s {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  display: block;
+  border-radius: 32px;
+  text-align: center;
+  padding: 8px 16px;
+  background-color: #ffffff;
+  border: 1px solid #3594C2;
+  color: #3594C2;
+  min-width: 89px;
+}
+.addchannel_contentBox .btnGroup .btn_third_outline_s:focus {
+  box-shadow: none;
+}
+.addchannel_contentBox .btnGroup .btn_third_outline_s:hover {
+  background-color: #70D0FF;
+  border: 0;
+  color: #ffffff;
+}
+.addchannel_contentBox .btnGroup .btn_third_outline_s:active {
+  background-color: #3594C2;
+}
+.addchannel_contentBox .btnGroup .btn_third_outline_s.disabled {
+  background-color: rgba(53, 148, 194, 0.3);
+}
+.addchannel_contentBox .btnGroup .btn_third_linear_s {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  display: block;
+  border-radius: 32px;
+  text-align: center;
+  padding: 8px 16px;
+  background: linear-gradient(to right, #3594c2 0%, #90d9fd 100%);
+  color: #ffffff;
+}
+.addchannel_contentBox .btnGroup .btn_third_linear_s:focus {
+  box-shadow: none;
+}
+.addchannel_contentBox .btnGroup .btn_third_linear_s:hover {
+  background: #70D0FF;
+}
+.addchannel_contentBox .btnGroup .btn_third_linear_s:active {
+  background: #3594C2;
+}
+.addchannel_contentBox .btnGroup .btn_third_linear_s.disabled {
+  background: rgba(53, 148, 194, 0.3);
+}
+
+.contentBox {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background: rgba(245, 248, 250, 0.8);
+}
+.contentBox_register {
+  min-height: 100vh;
+  background: url("../images/bgImage.png") no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.contentGroup {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+.contentGroup .main_Content {
+  width: 100%;
+  display: flex;
+}
+@media (min-width: 1367px) {
+  .contentGroup .main_Content {
+    max-width: 1600px;
+  }
+}
+.contentGroup .main_Content_register {
+  align-items: center;
+}
+.contentGroup .main_Content_page {
+  padding: 26px 40px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.txt_success_tit {
+  font-size: 34px;
+  line-height: 52px;
+  font-weight: bold;
+  color: #2D2F30;
+  margin-top: 36px;
+}
+
+::-moz-placeholder {
+  color: #AEB1B2;
+}
+
+::placeholder {
+  color: #AEB1B2;
+}
+
+.form-check-input:checked, .form-check-input:focus {
+  background-color: none;
+  border-color: none;
+  border-color: transparent;
+  outline: 0;
+  box-shadow: none;
+}
+
+.sideGroup_left, .main_content_page, .sideGroup_right {
+  display: flex;
+}
+
+.main_content_page {
+  align-items: center;
+}/*# sourceMappingURL=layout.css.map */

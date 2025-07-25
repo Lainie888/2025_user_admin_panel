@@ -1,0 +1,41 @@
+@import "_variable.scss";
+.sideGroup_left{ //左側邊欄區域
+    min-width: 160px;
+    min-height: 153px;
+    height: auto;
+    display: flex;
+    padding: $paddingBase;
+    border-radius: nth($borderRadius, 2);
+    background-color: map-get($support_colors, 300);
+    margin-right: 47px;
+    ul{
+        width: $base;
+        @extend %disPlayFlexColumn;
+        li{
+            width: $base;
+            display: flex;
+            &:not(:last-child){
+                margin-bottom: 8px;
+            }
+            a{
+                @extend %disPlayFlex;
+                width: $base;
+                flex-direction: row;
+                .icon{
+                    @include icon_common(block,50% ,60px ,60px);
+                }
+                p{
+                    @include font16B;
+                    color: map-get($support_colors, HighEmphasis);
+                    padding-left: 4px;
+                }
+                &:hover, &:active, &.active{
+                    p{
+                        color: map-get($third_colors, Third);
+                        transition: all 0.3s ease-in;
+                    }
+                }
+            }
+        }
+    }
+}

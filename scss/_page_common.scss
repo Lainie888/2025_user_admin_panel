@@ -1,0 +1,126 @@
+@import "_variable.scss";
+
+//page common(header)：資產保險箱 / 續航引擎 / 頻道管理
+.haderPage_Group{
+    width: $base;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    .headerLOGO{
+        width: 465px;
+    }
+    .navGroup{
+        width: calc($base - 465px - 552px);
+        ul{
+            display: flex;
+            width: calc($base / 3);
+            li{
+                &:not(:last-child){
+                    margin-right: 24px;
+                }
+                a{
+                    @include font18B;
+                    color: map-get($support_colors, 600);
+                    white-space: nowrap;
+                    position: relative;
+                    &:hover, &:active, &.active, &:focus{
+                        color: map-get($third_colors, Third);
+                        transition: all 0.3s ease-in;
+                        &:after{
+                            content: "";
+                            display: nth($display,1);
+                            width: $base;
+                            height: 5px;
+                            background-color: map-get($third_colors, Third);
+                            border-radius: 5px;
+                            position: absolute;
+                            top: 20px;
+                            left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .userGroup{
+        width: 552px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .user_icon{
+            @include userIcon(40px, 40px, 50%, hidden);
+            cursor: pointer;
+            &:hover{
+                border:2px solid $third;
+                transition: all 0.3s ease-in;
+            }
+        }
+    }
+    .userGroup_dropDown{
+        position: absolute;
+        z-index: 999;
+        width: 238px;
+        height: auto;
+        border-radius: nth($borderRadius,2);
+        background: rgba($color: #fff, $alpha: 0.5);
+        box-shadow: 0 1px 10px rgba($color: #4F4F4F, $alpha: 0.1);
+        top: 73px;
+        right: 12px;
+        @extend %disPlayFlexColumn;
+        align-items: center;
+        text-align: center;
+        padding:$paddingBase;
+        display: none; //預設隱藏
+        .user_icon{
+            @include userIcon(60px, 60px, 50%, hidden);
+        }
+        .useEmail{
+            width: 205px;
+            @include font12R;
+            color: map-get($support_colors , HighEmphasis);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            margin:4px auto 12px auto;
+        }
+        .dropDown_nav{
+            width: $base;
+            display: flex;
+            ul{
+                min-width: 121px;
+                @extend %disPlayFlexColumn;
+                margin-left: auto;
+                margin-right: auto;
+                li{
+                    width: $base;
+                    display: flex;
+                    &:not(:last-child){
+                        margin-bottom: 8px;
+                    }
+                    a{
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        text-align: left;
+                        width: $base;
+                        flex-direction: row;
+                        .icon{
+                            @include icon_common(block,50% ,36px ,36px);
+                        }
+                        p{
+                            @include font16B;
+                            color: map-get($support_colors, HighEmphasis);
+                            padding-left: 4px;
+                        }
+                        &:hover, &:active, &.active{
+                            p{
+                                color: map-get($third_colors, Third);
+                                transition: all 0.3s ease-in;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

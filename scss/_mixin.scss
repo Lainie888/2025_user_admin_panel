@@ -1,0 +1,54 @@
+@import "_variable.scss";
+
+//斷點
+@mixin tablet {
+    @media (min-width: 768px) and (max-width: 1366px) { //ipad
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: 1367px) { //desktop
+        @content;
+    }
+}
+
+//frame common
+@mixin container_common{
+    @extend %padding0;
+    width: $base;
+    margin: 0 auto;
+    @include tablet{
+        max-width: $base;
+    }
+}
+
+//frame
+@mixin container{
+    @include container_common;
+    max-width: 1600px;
+}
+@mixin container-fluid{
+    max-width: $base;
+}
+
+@mixin container1920{
+    @include container_common;
+    max-width: 1920px;
+}
+
+@mixin row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right:0px;
+    margin-left:0px;
+}
+@mixin col{
+    position: relative;
+    width: $base;
+    min-height: 1px;
+    @extend %padding0;
+}
+
+
+
